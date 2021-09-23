@@ -15,7 +15,7 @@ The user should add at least 3 scores and the system show the index.
 
 Artme Kononov - artme.x@ya.ru
 
-VK-Feed is released under the MIT license. [See LICENSE](https://github.com/artme-dev/VK-Feed/blob/main/LICENSE.txt) for details.
+Application is released under the MIT license. [See LICENSE](https://github.com/artme-dev/VK-Feed/blob/main/LICENSE.txt) for details.
 
 
 [swift-image]: https://img.shields.io/badge/swift-5-blueviolet.svg
