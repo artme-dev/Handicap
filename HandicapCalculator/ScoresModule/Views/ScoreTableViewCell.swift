@@ -14,7 +14,7 @@ class ScoreTableViewCell: UITableViewCell {
     private let mainCellStack: UIStackView = {
         let mainStack = UIStackView()
         mainStack.translatesAutoresizingMaskIntoConstraints = false
-        mainStack.backgroundColor = .white
+        mainStack.backgroundColor = .systemBackground
         mainStack.layer.cornerRadius = 8
         
         mainStack.layoutMargins = UIEdgeInsets(top: 8, left: 16, bottom: 8, right: 16)

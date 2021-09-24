@@ -13,7 +13,7 @@ class ScoreInfoViewController: UIViewController {
     
     private let contentView: UIView = {
         let contentView = UIView()
-        contentView.backgroundColor = .white
+        contentView.backgroundColor = .systemBackground
         contentView.layer.cornerRadius = 16
         contentView.translatesAutoresizingMaskIntoConstraints = false
         return contentView
