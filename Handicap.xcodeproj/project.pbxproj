@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28B847E42701BE1F0014F307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847B72701BE1F0014F307 /* AppDelegate.swift */; };
+		28B847E52701BE1F0014F307 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847B82701BE1F0014F307 /* ModuleBuilder.swift */; };
+		28B847E62701BE1F0014F307 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847B92701BE1F0014F307 /* SceneDelegate.swift */; };
+		28B847E72701BE1F0014F307 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847BA2701BE1F0014F307 /* TabBarController.swift */; };
+		28B847E82701BE1F0014F307 /* HandicapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847BC2701BE1F0014F307 /* HandicapViewController.swift */; };
+		28B847E92701BE1F0014F307 /* HadicapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847BD2701BE1F0014F307 /* HadicapPresenter.swift */; };
+		28B847EA2701BE1F0014F307 /* HandicapIndexCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847BE2701BE1F0014F307 /* HandicapIndexCalculator.swift */; };
+		28B847EB2701BE1F0014F307 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847C02701BE1F0014F307 /* UIColorExtension.swift */; };
+		28B847EC2701BE1F0014F307 /* UIImageResourses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847C12701BE1F0014F307 /* UIImageResourses.swift */; };
+		28B847ED2701BE1F0014F307 /* UIViewConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847C22701BE1F0014F307 /* UIViewConstraints.swift */; };
+		28B847EF2701BE1F0014F307 /* HandicapCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28B847C72701BE1F0014F307 /* HandicapCalculator.xcdatamodeld */; };
+		28B847F02701BE1F0014F307 /* Score+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847CA2701BE1F0014F307 /* Score+CoreDataClass.swift */; };
+		28B847F12701BE1F0014F307 /* Score+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847CB2701BE1F0014F307 /* Score+CoreDataProperties.swift */; };
+		28B847F22701BE1F0014F307 /* ScoreExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847CC2701BE1F0014F307 /* ScoreExtension.swift */; };
+		28B847F42701BE1F0014F307 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847D02701BE1F0014F307 /* CoreDataStack.swift */; };
+		28B847F52701BE1F0014F307 /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847D12701BE1F0014F307 /* DataRepository.swift */; };
+		28B847F62701BE1F0014F307 /* CoreDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847D22701BE1F0014F307 /* CoreDataRepository.swift */; };
+		28B847F72701BE1F0014F307 /* ScoresRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847D52701BE1F0014F307 /* ScoresRepository.swift */; };
+		28B847F82701BE1F0014F307 /* ScoresPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847D72701BE1F0014F307 /* ScoresPresenter.swift */; };
+		28B847F92701BE1F0014F307 /* ScoresViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847D92701BE1F0014F307 /* ScoresViewData.swift */; };
+		28B847FA2701BE1F0014F307 /* ScoresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847DA2701BE1F0014F307 /* ScoresTableViewController.swift */; };
+		28B847FB2701BE1F0014F307 /* NamedFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847DC2701BE1F0014F307 /* NamedFieldView.swift */; };
+		28B847FC2701BE1F0014F307 /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847DD2701BE1F0014F307 /* SeparatorView.swift */; };
+		28B847FD2701BE1F0014F307 /* CustomizedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847DE2701BE1F0014F307 /* CustomizedButton.swift */; };
+		28B847FE2701BE1F0014F307 /* PropertiesStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847DF2701BE1F0014F307 /* PropertiesStack.swift */; };
+		28B847FF2701BE1F0014F307 /* ScoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847E02701BE1F0014F307 /* ScoreInfoViewController.swift */; };
+		28B848002701BE1F0014F307 /* ScoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B847E12701BE1F0014F307 /* ScoreTableViewCell.swift */; };
+		28B848022701C0000014F307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B847CE2701BE1F0014F307 /* Assets.xcassets */; };
+		28B848232701C4DE0014F307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B847B52701BE1F0014F307 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28B8479D2701BDA30014F307 /* Handicap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Handicap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B847B62701BE1F0014F307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28B847B72701BE1F0014F307 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28B847B82701BE1F0014F307 /* ModuleBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		28B847B92701BE1F0014F307 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		28B847BA2701BE1F0014F307 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		28B847BC2701BE1F0014F307 /* HandicapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandicapViewController.swift; sourceTree = "<group>"; };
+		28B847BD2701BE1F0014F307 /* HadicapPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HadicapPresenter.swift; sourceTree = "<group>"; };
+		28B847BE2701BE1F0014F307 /* HandicapIndexCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandicapIndexCalculator.swift; sourceTree = "<group>"; };
+		28B847C02701BE1F0014F307 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		28B847C12701BE1F0014F307 /* UIImageResourses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageResourses.swift; sourceTree = "<group>"; };
+		28B847C22701BE1F0014F307 /* UIViewConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewConstraints.swift; sourceTree = "<group>"; };
+		28B847C82701BE1F0014F307 /* HandicapCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HandicapCalculator.xcdatamodel; sourceTree = "<group>"; };
+		28B847CA2701BE1F0014F307 /* Score+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Score+CoreDataClass.swift"; sourceTree = "<group>"; };
+		28B847CB2701BE1F0014F307 /* Score+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Score+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		28B847CC2701BE1F0014F307 /* ScoreExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreExtension.swift; sourceTree = "<group>"; };
+		28B847CE2701BE1F0014F307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28B847D02701BE1F0014F307 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		28B847D12701BE1F0014F307 /* DataRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataRepository.swift; sourceTree = "<group>"; };
+		28B847D22701BE1F0014F307 /* CoreDataRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataRepository.swift; sourceTree = "<group>"; };
+		28B847D52701BE1F0014F307 /* ScoresRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoresRepository.swift; sourceTree = "<group>"; };
+		28B847D72701BE1F0014F307 /* ScoresPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoresPresenter.swift; sourceTree = "<group>"; };
+		28B847D92701BE1F0014F307 /* ScoresViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoresViewData.swift; sourceTree = "<group>"; };
+		28B847DA2701BE1F0014F307 /* ScoresTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoresTableViewController.swift; sourceTree = "<group>"; };
+		28B847DC2701BE1F0014F307 /* NamedFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamedFieldView.swift; sourceTree = "<group>"; };
+		28B847DD2701BE1F0014F307 /* SeparatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
+		28B847DE2701BE1F0014F307 /* CustomizedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizedButton.swift; sourceTree = "<group>"; };
+		28B847DF2701BE1F0014F307 /* PropertiesStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertiesStack.swift; sourceTree = "<group>"; };
+		28B847E02701BE1F0014F307 /* ScoreInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreInfoViewController.swift; sourceTree = "<group>"; };
+		28B847E12701BE1F0014F307 /* ScoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreTableViewCell.swift; sourceTree = "<group>"; };
+		28B847E22701BE1F0014F307 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28B8479A2701BDA30014F307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28B847942701BDA30014F307 = {
+			isa = PBXGroup;
+			children = (
+				28B8479F2701BDA30014F307 /* Handicap */,
+				28B8479E2701BDA30014F307 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28B8479E2701BDA30014F307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28B8479D2701BDA30014F307 /* Handicap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28B8479F2701BDA30014F307 /* Handicap */ = {
+			isa = PBXGroup;
+			children = (
+				28B847B42701BE1F0014F307 /* App */,
+				28B847CF2701BE1F0014F307 /* CoreDataRepository */,
+				28B847D32701BE1F0014F307 /* ScoresModule */,
+				28B847BB2701BE1F0014F307 /* HandicapModule */,
+				28B847BF2701BE1F0014F307 /* Helpers */,
+				28B847E22701BE1F0014F307 /* Info.plist */,
+				28B847C62701BE1F0014F307 /* Models */,
+				28B847CD2701BE1F0014F307 /* Resources */,
+			);
+			path = Handicap;
+			sourceTree = "<group>";
+		};
+		28B847B42701BE1F0014F307 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				28B847B52701BE1F0014F307 /* LaunchScreen.storyboard */,
+				28B847B72701BE1F0014F307 /* AppDelegate.swift */,
+				28B847B82701BE1F0014F307 /* ModuleBuilder.swift */,
+				28B847B92701BE1F0014F307 /* SceneDelegate.swift */,
+				28B847BA2701BE1F0014F307 /* TabBarController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		28B847BB2701BE1F0014F307 /* HandicapModule */ = {
+			isa = PBXGroup;
+			children = (
+				28B847BC2701BE1F0014F307 /* HandicapViewController.swift */,
+				28B847BD2701BE1F0014F307 /* HadicapPresenter.swift */,
+				28B847BE2701BE1F0014F307 /* HandicapIndexCalculator.swift */,
+			);
+			path = HandicapModule;
+			sourceTree = "<group>";
+		};
+		28B847BF2701BE1F0014F307 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				28B847C02701BE1F0014F307 /* UIColorExtension.swift */,
+				28B847C12701BE1F0014F307 /* UIImageResourses.swift */,
+				28B847C22701BE1F0014F307 /* UIViewConstraints.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		28B847C62701BE1F0014F307 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				28B847C72701BE1F0014F307 /* HandicapCalculator.xcdatamodeld */,
+				28B847C92701BE1F0014F307 /* CoreDataGenerated */,
+				28B847CC2701BE1F0014F307 /* ScoreExtension.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28B847C92701BE1F0014F307 /* CoreDataGenerated */ = {
+			isa = PBXGroup;
+			children = (
+				28B847CA2701BE1F0014F307 /* Score+CoreDataClass.swift */,
+				28B847CB2701BE1F0014F307 /* Score+CoreDataProperties.swift */,
+			);
+			path = CoreDataGenerated;
+			sourceTree = "<group>";
+		};
+		28B847CD2701BE1F0014F307 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28B847CE2701BE1F0014F307 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		28B847CF2701BE1F0014F307 /* CoreDataRepository */ = {
+			isa = PBXGroup;
+			children = (
+				28B847D02701BE1F0014F307 /* CoreDataStack.swift */,
+				28B847D12701BE1F0014F307 /* DataRepository.swift */,
+				28B847D22701BE1F0014F307 /* CoreDataRepository.swift */,
+			);
+			path = CoreDataRepository;
+			sourceTree = "<group>";
+		};
+		28B847D32701BE1F0014F307 /* ScoresModule */ = {
+			isa = PBXGroup;
+			children = (
+				28B847D42701BE1F0014F307 /* Repository */,
+				28B847D62701BE1F0014F307 /* Presenter */,
+				28B847D82701BE1F0014F307 /* Views */,
+			);
+			path = ScoresModule;
+			sourceTree = "<group>";
+		};
+		28B847D42701BE1F0014F307 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				28B847D52701BE1F0014F307 /* ScoresRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		28B847D62701BE1F0014F307 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				28B847D72701BE1F0014F307 /* ScoresPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		28B847D82701BE1F0014F307 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28B847D92701BE1F0014F307 /* ScoresViewData.swift */,
+				28B847DA2701BE1F0014F307 /* ScoresTableViewController.swift */,
+				28B847DB2701BE1F0014F307 /* CommonViews */,
+				28B847E02701BE1F0014F307 /* ScoreInfoViewController.swift */,
+				28B847E12701BE1F0014F307 /* ScoreTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		28B847DB2701BE1F0014F307 /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				28B847DC2701BE1F0014F307 /* NamedFieldView.swift */,
+				28B847DD2701BE1F0014F307 /* SeparatorView.swift */,
+				28B847DE2701BE1F0014F307 /* CustomizedButton.swift */,
+				28B847DF2701BE1F0014F307 /* PropertiesStack.swift */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28B8479C2701BDA30014F307 /* Handicap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28B847B12701BDA50014F307 /* Build configuration list for PBXNativeTarget "Handicap" */;
+			buildPhases = (
+				28B847992701BDA30014F307 /* Sources */,
+				28B8479A2701BDA30014F307 /* Frameworks */,
+				28B8479B2701BDA30014F307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Handicap;
+			productName = Handicap;
+			productReference = 28B8479D2701BDA30014F307 /* Handicap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28B847952701BDA30014F307 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					28B8479C2701BDA30014F307 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 28B847982701BDA30014F307 /* Build configuration list for PBXProject "Handicap" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28B847942701BDA30014F307;
+			productRefGroup = 28B8479E2701BDA30014F307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28B8479C2701BDA30014F307 /* Handicap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28B8479B2701BDA30014F307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B848022701C0000014F307 /* Assets.xcassets in Resources */,
+				28B848232701C4DE0014F307 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28B847992701BDA30014F307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B847F12701BE1F0014F307 /* Score+CoreDataProperties.swift in Sources */,
+				28B847E42701BE1F0014F307 /* AppDelegate.swift in Sources */,
+				28B848002701BE1F0014F307 /* ScoreTableViewCell.swift in Sources */,
+				28B847E72701BE1F0014F307 /* TabBarController.swift in Sources */,
+				28B847E82701BE1F0014F307 /* HandicapViewController.swift in Sources */,
+				28B847EB2701BE1F0014F307 /* UIColorExtension.swift in Sources */,
+				28B847EF2701BE1F0014F307 /* HandicapCalculator.xcdatamodeld in Sources */,
+				28B847FF2701BE1F0014F307 /* ScoreInfoViewController.swift in Sources */,
+				28B847F52701BE1F0014F307 /* DataRepository.swift in Sources */,
+				28B847FB2701BE1F0014F307 /* NamedFieldView.swift in Sources */,
+				28B847FA2701BE1F0014F307 /* ScoresTableViewController.swift in Sources */,
+				28B847F42701BE1F0014F307 /* CoreDataStack.swift in Sources */,
+				28B847FE2701BE1F0014F307 /* PropertiesStack.swift in Sources */,
+				28B847E52701BE1F0014F307 /* ModuleBuilder.swift in Sources */,
+				28B847F72701BE1F0014F307 /* ScoresRepository.swift in Sources */,
+				28B847F62701BE1F0014F307 /* CoreDataRepository.swift in Sources */,
+				28B847F02701BE1F0014F307 /* Score+CoreDataClass.swift in Sources */,
+				28B847EA2701BE1F0014F307 /* HandicapIndexCalculator.swift in Sources */,
+				28B847E62701BE1F0014F307 /* SceneDelegate.swift in Sources */,
+				28B847EC2701BE1F0014F307 /* UIImageResourses.swift in Sources */,
+				28B847FC2701BE1F0014F307 /* SeparatorView.swift in Sources */,
+				28B847E92701BE1F0014F307 /* HadicapPresenter.swift in Sources */,
+				28B847F92701BE1F0014F307 /* ScoresViewData.swift in Sources */,
+				28B847F22701BE1F0014F307 /* ScoreExtension.swift in Sources */,
+				28B847ED2701BE1F0014F307 /* UIViewConstraints.swift in Sources */,
+				28B847FD2701BE1F0014F307 /* CustomizedButton.swift in Sources */,
+				28B847F82701BE1F0014F307 /* ScoresPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28B847B52701BE1F0014F307 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28B847B62701BE1F0014F307 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28B847AF2701BDA50014F307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28B847B02701BDA50014F307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28B847B22701BDA50014F307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34YD2762N8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Handicap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.artemkononov2000.Handicap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28B847B32701BDA50014F307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34YD2762N8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Handicap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.artemkononov2000.Handicap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28B847982701BDA30014F307 /* Build configuration list for PBXProject "Handicap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B847AF2701BDA50014F307 /* Debug */,
+				28B847B02701BDA50014F307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28B847B12701BDA50014F307 /* Build configuration list for PBXNativeTarget "Handicap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B847B22701BDA50014F307 /* Debug */,
+				28B847B32701BDA50014F307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28B847C72701BE1F0014F307 /* HandicapCalculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28B847C82701BE1F0014F307 /* HandicapCalculator.xcdatamodel */,
+			);
+			currentVersion = 28B847C82701BE1F0014F307 /* HandicapCalculator.xcdatamodel */;
+			path = HandicapCalculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 28B847952701BDA30014F307 /* Project object */;
+}
